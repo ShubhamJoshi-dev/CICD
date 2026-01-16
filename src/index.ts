@@ -15,7 +15,7 @@ app.get("/health", (req: Request, res: Response) => {
     message: "Working",
     time: new Date().toDateString(),
   };
-  return res.status(201).json(payload);
+  return res.status(200).json(payload);
 });
 
 app.listen(port, () => {
