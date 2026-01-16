@@ -2,7 +2,7 @@ import express, { Request, Response } from "express";
 import cors from "cors";
 import morgan from "morgan";
 
-const port = 3000;
+const port = 8000;
 const app = express();
 
 app.use(express.json());
